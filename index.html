@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <h1>Install C Compiler</h1>
+    <a href="http://www.macobserver.com/tmo/article/os_x_lion_for_unix_geeks_installing_the_c_compilers/">Instructions</a>
+    <p>then</p>
+    <a href="http://www.macobserver.com/tmo/article/install_the_command_line_c_compilers_in_os_x_lion/">Instructions</a>
+
+    <h1>Install GraphicsMagick</h1>
+    <a href="http://www.graphicsmagick.org/INSTALL-unix.html">Instructions</a>
+
+    <ol>
+        <li>
+            <a href="http://sourceforge.net/projects/graphicsmagick/files/graphicsmagick/1.3.17/">Download GraphicsMagick</a>
+        </li>
+        <li>
+            <a href="http://www.ijg.org/files/jpegsrc.v8d.tar.gz">Download jpeg library</a>
+        </li>
+        <li>
+            <a href="http://sourceforge.net/projects/libpng/files/libpng14/">Download png library</a>
+        </li>
+        <li>
+            In lib directories run Command: ./configure && make && make install
+        <li>
+            Command to unzip: gzip -d GraphicsMagick-1.3.tar.gz | tar -xvf -
+        </li>
+        <li>
+            Command: cd GraphicsMagick-1.3
+        </li>
+        <li>
+            Command: ./configure CC=clang
+        </li>
+        <li>
+            Commnad: make
+        </li>
+        <li>
+            Command: make install
+        </li>
+        <li>
+            Command to verify: gm display
+        </li>
+    </ol>
+</body>
+</html>
